@@ -1,3 +1,7 @@
+@echo off
+cd /d "D:\sinau html\aruna"
 git add .
-git commit -m "first commit"
-git push -u origin main
+git commit -m "Auto Update"
+git push -u origin main --force
+echo ✅ Selesai!
+pause

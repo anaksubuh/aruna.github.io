@@ -288,17 +288,17 @@ section{
   grid-template-columns:repeat(2,1fr);
   gap:70px;
   align-items:center;
+  justify-content:center;
 }
 
 @media(max-width:768px){
 
   .spec-image{
     display:flex;
-    justify-content:center;
   }
-
+  
   .spec-image img{
-    width:100%;
+    width:80;
     max-width:100%;
     border-radius:18px;
   }
